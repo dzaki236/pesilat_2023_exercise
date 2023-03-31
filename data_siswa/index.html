@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Siswa</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fbff;
+        }
+
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            border-color: rgb(136, 136, 139);
+        }
+
+        th {
+            padding: 0.6em;
+        }
+
+        .container {
+            background: #ffffff;
+            box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+            padding: 1em;
+            width: 70%;
+            margin: auto;
+        }
+
+        .wrapper {
+            width: 100%;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <hr>
+            <center>
+                <h1>Data Siswa</h1>
+            </center>
+            <table border="1" class="table">
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>Nama Siswa</th>
+                        <th>Foto</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="datanya">
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script>
+        tampilData();
+    </script>
+</body>
+
+</html>

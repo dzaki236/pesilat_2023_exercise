@@ -1,0 +1,34 @@
+{
+    "dataSiswa": [
+        {
+            "id": "1",
+            "name": "Kariman Kasim Mangunsong",
+            "foto": "https://xsgames.co/randomusers/assets/avatars/male/11.jpg"
+        },
+        {
+            "id": "2",
+            "name": "Melinda Hassanah",
+            "foto": "https://xsgames.co/randomusers/assets/avatars/female/21.jpg"
+        },
+        {
+            "id": "3",
+            "name": "Rafi Halim",
+            "foto": "https://xsgames.co/randomusers/assets/avatars/male/31.jpg"
+        },
+        {
+            "id": "4",
+            "name": "Eka Wahyuni",
+            "foto": "https://xsgames.co/randomusers/assets/avatars/female/41.jpg"
+        },
+        {
+            "id": "5",
+            "name": "Arta Wibisono",
+            "foto": "https://xsgames.co/randomusers/assets/avatars/male/51.jpg"
+        },
+        {
+            "id": "6",
+            "name": "Kusuma Ziah",
+            "foto": "https://xsgames.co/randomusers/assets/avatars/female/61.jpg"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>nanti aja</title>
+    <style>
+        /* Wrapper buat nampung tablenya */
+        .wrapper {
+            width: 100%;
+        }
+
+        /* Container buat ketengah in tablenya */
+        .container {
+            width: 60%;
+            margin: auto;
+        }
+
+        /* class css buat table parentnya */
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .twotable {
+            display: flex;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <!-- Parent table 1 -->
+            <table class="table" border="1">
+                <tr>
+                    <th style="width: 50%;">1</th>
+                    <th style="width: 50%;">2</th>
+                </tr>
+            </table>
+
+            <!-- Parent table 2 -->
+            <table class="table" border="1">
+                <tr>
+                    <th style="width: 50%; height: 10em;">3</th>
+                    <th style="width: 50%; height: 10em; ">
+                        <!-- Nested table without flex -->
+                        <!-- Child table 1 -->
+                        <table style="width: 90%; border-collapse: collapse; margin-left: auto;" border="1">
+                            <tr>
+                                <td colspan="2">4</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>6</td>
+                            </tr>
+                        </table>
+                    </th>
+                </tr>
+            </table>
+
+            <!-- Parent table 3 -->
+            <table class="table" border="1">
+                <tr>
+                    <th style="width: 80%; height: 10em;">
+                        <!-- Nested table with flex -->
+                        <div class="twotable">
+                            <div style="width: 1%;"></div>
+
+                            <!-- Child table 2 -->
+                            <table style="width: 20%; border-collapse: collapse; margin-right: auto;" border="1">
+                                <tr>
+                                    <td colspan="2">7</td>
+                                </tr>
+                            </table>
+
+
+                            <div style="width: 50%;"></div>
+
+                            <!-- Child table 3 -->
+                            <table style="width: 20%; border-collapse: collapse; margin-left: auto;" border="1">
+                                <tr>
+                                    <td colspan="2">8</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">9</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </th>
+                    <th style="width: 50%; height: 10em; ">
+                        10
+                    </th>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+</body>
+
+</html>

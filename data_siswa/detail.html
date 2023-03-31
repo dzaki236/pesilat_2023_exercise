@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Siswa</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fbff;
+        }
+
+        .card {
+            background-color: rgb(255, 255, 255);
+            width: 100%;
+            border: 1px solid rgb(244, 244, 244);
+            text-align: center;
+            padding: 1em;
+            box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+        }
+
+        .table {
+            width: 100%;
+
+        }
+
+        .container {
+            padding: 1em;
+            width: 70%;
+            margin: auto;
+        }
+
+        .wrapper {
+            width: 100%;
+        }
+
+        a {
+            margin-bottom: 1em;
+            display: block;
+            color: blue;
+            text-decoration: none;
+        }
+
+        th {
+            padding: 0.8em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <a href="index.html">&#8592 Kembali</a>
+            <div class="card">
+                <hr>
+                <h1 id="h1"></h1>
+                <table class="table">
+                    <thead id="detailDataSiswa">
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+<script>
+    tampilDetail();
+</script>
+
+</html>
